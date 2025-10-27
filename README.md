@@ -1,7 +1,10 @@
 # AI-COURSE
 **student Name:** Mftaul Jannat Maliha
+
 **Course :** Artificial Intelligence Lab (CSE-06133116)
+
 **Course taken by :** Razorshi Prozzwal Talukder
+
 **Duration of Course  :** July 2025 - December 2025
  
  **Purpose of this repository**
