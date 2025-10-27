@@ -12,7 +12,7 @@ The AI automatically generated 10–12 professional slides with proper layout, i
 I customized the text and design slightly to match my project theme.
 
 I followed the blog tutorial:
-🔗 https://blog.presentation.ai/how-to-create-ai-presentations
+🔗https://youtu.be/QCC-qdVB5BU?si=pwPqgUprIiGIWv2c
 
 
 2. Creating the Video using InVideo AI
@@ -27,4 +27,4 @@ The AI tool automatically created the video with voiceover, visuals, and transit
 I previewed the result, made small edits, and exported the final 1+ minute video.
 
 I followed the blog guide:
-🔗 https://invideo.io/blog/ai-video-generator
+🔗 https://youtu.be/iln0fOakWpM?si=8c-hxw5hWB6FaP2e
