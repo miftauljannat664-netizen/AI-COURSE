@@ -1,43 +1,19 @@
+IDS (Iterative Deepening Search) Algorithm
 
-def dls(graph, current, target, limit, visited):
-    if current == target:
-        print(f"Reached target: {target}")
-        return True
+File: IDS.py
 
-    if limit <= 0:
-        return False
+**Purpose:**
+Implements Iterative Deepening Search (IDS), which combines the space efficiency of DFS and the completeness of BFS by repeatedly applying Depth-Limited Search with increasing depth.
 
-    visited.add(current)
-    for neighbor in graph.get(current, []):
-        if neighbor not in visited:
-            if dls(graph, neighbor, target, limit - 1, visited):
-                return True
+**How it works:**
+Runs DLS multiple times, starting from depth 0 and increasing the limit until the target is found or the maximum depth is reached.
 
-    return False
+**Complexity:**
 
+Time: O(b^d)
 
-def ids(graph, start, target, max_depth):
-    for depth in range(max_depth + 1):
-        print(f"\nTrying depth limit: {depth}")
-        visited = set()
-        if dls(graph, start, target, depth, visited):
-            print("Target found using IDS.")
-            return True
-    print("Target not found within depth limit.")
-    return False
+Space: O(d)
+(b = branching factor, d = depth of the goal)
 
-# ----------- User Input Section -------------
-graph = {}
-
-num_nodes = int(input("Enter number of nodes: "))
-for _ in range(num_nodes):
-    node = input("Enter node name: ")
-    neighbors = input(f"Enter neighbors of {node} (space-separated): ").split()
-    graph[node] = neighbors
-
-start_node = input("Enter starting node: ")
-target_node = input("Enter target node: ")
-max_depth = int(input("Enter maximum depth limit: "))
-
-# Run IDS
-ids(graph, start_node, target_node, max_depth)
+**Applications:**
+Used in game trees, pathfinding problems, and AI search where the depth of the goal is unknown.
