@@ -1,6 +1,6 @@
 DFS (Depth-First Search) Algorithm
 
-**File:** dfs.py
+**File:** DFS.py
 
 **Purpose:**
 Implements Depth-First Search (DFS) to traverse all nodes in a graph.
