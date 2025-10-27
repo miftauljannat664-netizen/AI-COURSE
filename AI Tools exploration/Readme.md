@@ -15,6 +15,8 @@ I followed the blog tutorial:
 🔗https://youtu.be/QCC-qdVB5BU?si=pwPqgUprIiGIWv2c
 
 
+
+
 2. Creating the Video using InVideo AI
 
 I used InVideo AI
