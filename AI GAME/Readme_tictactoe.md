@@ -54,4 +54,3 @@ and minimizes the player’s chance of winning.
 
 <img width="228" height="309" alt="image" src="https://github.com/user-attachments/assets/e5e1b825-de53-423e-9a7e-3e4e39d6a296" />
 
- <img width="248" height="335" alt="image" src="https://github.com/user-attachments/assets/f3e060e0-21a3-4f27-9cf3-cb5e881ec873" />
